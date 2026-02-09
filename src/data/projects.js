@@ -1,5 +1,7 @@
 import todos1 from "../assets/projects/todos/todos1.png";
 import swapi from "../assets/projects/swapi/swapi.png";
+import booking1 from "../assets/projects/booking/booking1.png"
+import booking2 from "../assets/projects/booking/booking2.png"
 
 export const projects = [
   {
@@ -29,5 +31,19 @@ export const projects = [
     demo: "https://swapi-with-redux-thunk.vercel.app/",
     github:
       "https://github.com/tanyagrr/frontend-pro-homework/tree/main/homework30",
+  },
+  {
+    id: "booking",
+    title: "Booking App",
+    short: "An app to browse and book hotels",
+    long: `A booking application built with React, Redux Toolkit, and Redux Saga, allowing users to search for hotels by destination, choose travel dates, and view available accommodations. The app features a structured search flow with form validation and URL-based navigation.
+
+          Formik is used to manage form state and validation, while Redux Saga handles asynchronous API requests and side effects such as fetching destinations and filtering hotels. The user interface is built with Material UI, focusing on a clean layout and responsive design. The project also includes unit tests written with Vitest, helping to practice testing component behavior and async logic.
+          `,
+    stack: ["React", "Redux Toolkit", "Redux-Saga", "MUI", "Vitest"],
+    screenshots: [booking1, booking2],
+    demo: "https://booking-app-two-smoky.vercel.app/",
+    github:
+      "https://github.com/tanyagrr/booking-app",
   },
 ];

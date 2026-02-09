@@ -73,7 +73,13 @@ function Projects() {
                     {project.short}
                   </Typography>
 
-                  <Stack direction="row" spacing={1} mt={2} flexWrap="wrap">
+                  <Stack
+                    direction="row"
+                    spacing={0}
+                    mt={2}
+                    flexWrap="wrap"
+                    sx={{ rowGap: 1, columnGap: 1 }}
+                  >
                     {project.stack.map((tech) => (
                       <Chip key={tech} label={tech} size="small" />
                     ))}
