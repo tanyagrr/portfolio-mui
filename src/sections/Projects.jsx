@@ -50,7 +50,7 @@ function Projects() {
               <Card
                 sx={{
                   width: 340,
-                  height: 360,
+                  height: "auto",
                   display: "flex",
                   flexDirection: "column",
                 }}
