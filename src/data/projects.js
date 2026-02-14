@@ -40,7 +40,7 @@ export const projects = [
 
           Formik is used to manage form state and validation, while Redux Saga handles asynchronous API requests and side effects such as fetching destinations and filtering hotels. The user interface is built with Material UI, focusing on a clean layout and responsive design. The project also includes unit tests written with Vitest, helping to practice testing component behavior and async logic.
           `,
-    stack: ["React", "Redux Toolkit", "Redux-Saga", "MUI", "Vitest"],
+    stack: ["React", "RTK", "Redux-Saga", "MUI", "Vitest"],
     screenshots: [booking1, booking2],
     demo: "https://booking-app-two-smoky.vercel.app/",
     github:
