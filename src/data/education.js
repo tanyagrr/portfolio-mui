@@ -21,5 +21,7 @@ export const education = [
     school: "Odesa National Mechnikov University",
     description:
       "Focused on advanced English language proficiency, communication, and analytical skills, supporting effective collaboration and work with technical documentation.",
+    certificate:
+      "https://certificate.ithillel.ua/view/65255675",
   },
 ];
