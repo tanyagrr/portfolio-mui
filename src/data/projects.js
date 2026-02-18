@@ -8,7 +8,7 @@ export const projects = [
     id: "todo-app",
     title: "Todo App",
     short: "Task manager with Redux Toolkit",
-    long: `A full-featured task management application built with React and Redux Saga.The app allows users to create, edit, complete, and delete tasks with a smoothand responsive UI.
+    long: `A full-featured task management application built with React and Redux Saga. The app allows users to create, edit, complete, and delete tasks with a smooth and responsive UI.
 
           State management is handled using Redux, while Redux Saga is used to manage asynchronous logic and side effects, ensuring a clear separation between UI and business logic. The project demonstrates practical use of scalable state architecture, clean component structure, and predictable data flow.
           `,
