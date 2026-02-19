@@ -8,6 +8,7 @@ const skills = [
   "Git",
   "Github",
   "Tailwind",
+  "Material UI",
   "Redux",
   "Redux ToolKit",
   "Redux-Thunk",
@@ -15,7 +16,6 @@ const skills = [
   "Express.js",
   "REST API",
   "Vitest",
-  "Material UI",
 ];
 
 function Skills() {
