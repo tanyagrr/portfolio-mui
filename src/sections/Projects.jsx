@@ -27,7 +27,7 @@ function Projects() {
       }}
     >
       <Container
-        maxWidth="lg"
+        maxWidth="md"
         sx={{
           minHeight: `calc(100vh - ${headerHeight}px)`,
           display: "flex",

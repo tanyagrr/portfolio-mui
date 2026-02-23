@@ -1,7 +1,8 @@
 import todos1 from "../assets/projects/todos/todos1.png";
 import swapi from "../assets/projects/swapi/swapi.png";
-import booking1 from "../assets/projects/booking/booking1.png"
-import booking2 from "../assets/projects/booking/booking2.png"
+import booking1 from "../assets/projects/booking/booking1.png";
+import booking2 from "../assets/projects/booking/booking2.png";
+import vin1 from "../assets/projects/vin-decoder/vin1.png";
 
 export const projects = [
   {
@@ -45,5 +46,19 @@ export const projects = [
     demo: "https://booking-app-two-smoky.vercel.app/",
     github:
       "https://github.com/tanyagrr/booking-app",
+  },
+  {
+    id: "vin-decoder",
+    title: "VIN Decoder",
+    short: "An app to decode vehicle identification numbers",
+    long: `A VIN Decoder application built with React and Formik, allowing users to decode vehicle information by entering a 17-character VIN. The app validates user input, fetches vehicle data from an external API, and displays structured vehicle details in a clean and user-friendly layout. The application also stores recent searches locally, enabling users to quickly re-run previous VIN lookups.
+
+          The UI focuses on simplicity and clarity, with conditional rendering to handle loading states, empty results, and error scenarios gracefully. The project includes unit and component tests written with Vitest and React Testing Library, covering validation logic, form submission behavior, and API interaction to ensure reliability and maintainability.
+          `,
+    stack: ["React", "Formik", "Redux Router", "Vitest"],
+    screenshots: [vin1],
+    demo: "https://vin-test-task.vercel.app/",
+    github:
+      "https://github.com/tanyagrr/vin-test-task",
   },
 ];
