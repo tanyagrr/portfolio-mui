@@ -6,6 +6,32 @@ import vin1 from "../assets/projects/vin-decoder/vin1.png";
 
 export const projects = [
   {
+    id: "vin-decoder",
+    title: "VIN Decoder",
+    short: "An app to decode vehicle identification numbers",
+    long: `A VIN Decoder application built with React and Formik, allowing users to decode vehicle information by entering a 17-character VIN. The app validates user input, fetches vehicle data from an external API, and displays structured vehicle details in a clean and user-friendly layout. The application also stores recent searches locally, enabling users to quickly re-run previous VIN lookups.
+
+          The UI focuses on simplicity and clarity, with conditional rendering to handle loading states, empty results, and error scenarios gracefully. The project includes unit and component tests written with Vitest and React Testing Library, covering validation logic, form submission behavior, and API interaction to ensure reliability and maintainability.
+          `,
+    stack: ["React", "Formik", "Redux Router", "Vitest"],
+    screenshots: [vin1],
+    demo: "https://vin-test-task.vercel.app/",
+    github: "https://github.com/tanyagrr/vin-test-task",
+  },
+  {
+    id: "booking",
+    title: "Booking App",
+    short: "An app to browse and book hotels",
+    long: `A booking application built with React, Redux Toolkit, and Redux Saga, allowing users to search for hotels by destination, choose travel dates, and view available accommodations. The app features a structured search flow with form validation and URL-based navigation.
+
+          Formik is used to manage form state and validation, while Redux Saga handles asynchronous API requests and side effects such as fetching destinations and filtering hotels. The user interface is built with Material UI, focusing on a clean layout and responsive design. The project also includes unit tests written with Vitest, helping to practice testing component behavior and async logic.
+          `,
+    stack: ["React", "RTK", "Redux-Saga", "MUI", "Vitest"],
+    screenshots: [booking1, booking2],
+    demo: "https://booking-app-two-smoky.vercel.app/",
+    github: "https://github.com/tanyagrr/booking-app",
+  },
+  {
     id: "todo-app",
     title: "Todo App",
     short: "Task manager with Redux Toolkit",
@@ -32,33 +58,5 @@ export const projects = [
     demo: "https://swapi-with-redux-thunk.vercel.app/",
     github:
       "https://github.com/tanyagrr/frontend-pro-homework/tree/main/homework30",
-  },
-  {
-    id: "booking",
-    title: "Booking App",
-    short: "An app to browse and book hotels",
-    long: `A booking application built with React, Redux Toolkit, and Redux Saga, allowing users to search for hotels by destination, choose travel dates, and view available accommodations. The app features a structured search flow with form validation and URL-based navigation.
-
-          Formik is used to manage form state and validation, while Redux Saga handles asynchronous API requests and side effects such as fetching destinations and filtering hotels. The user interface is built with Material UI, focusing on a clean layout and responsive design. The project also includes unit tests written with Vitest, helping to practice testing component behavior and async logic.
-          `,
-    stack: ["React", "RTK", "Redux-Saga", "MUI", "Vitest"],
-    screenshots: [booking1, booking2],
-    demo: "https://booking-app-two-smoky.vercel.app/",
-    github:
-      "https://github.com/tanyagrr/booking-app",
-  },
-  {
-    id: "vin-decoder",
-    title: "VIN Decoder",
-    short: "An app to decode vehicle identification numbers",
-    long: `A VIN Decoder application built with React and Formik, allowing users to decode vehicle information by entering a 17-character VIN. The app validates user input, fetches vehicle data from an external API, and displays structured vehicle details in a clean and user-friendly layout. The application also stores recent searches locally, enabling users to quickly re-run previous VIN lookups.
-
-          The UI focuses on simplicity and clarity, with conditional rendering to handle loading states, empty results, and error scenarios gracefully. The project includes unit and component tests written with Vitest and React Testing Library, covering validation logic, form submission behavior, and API interaction to ensure reliability and maintainability.
-          `,
-    stack: ["React", "Formik", "Redux Router", "Vitest"],
-    screenshots: [vin1],
-    demo: "https://vin-test-task.vercel.app/",
-    github:
-      "https://github.com/tanyagrr/vin-test-task",
   },
 ];
